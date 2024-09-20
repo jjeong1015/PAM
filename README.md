@@ -1,5 +1,10 @@
 # WooriFISA-PAM
 
+|<img src="https://avatars.githubusercontent.com/u/82391356?v=4" width="120" height="120"/>|
+|:-:|
+[@이정민](https://github.com/jjeong1015) 
+
+
 ```bash
 # 사용자의 인증을 담당하는 모듈
 $ sudo apt-get install libpam-pwquality
