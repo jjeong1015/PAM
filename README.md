@@ -25,3 +25,5 @@ $ sudo adduser user0
 # 비밀번호를 asdf로 할 경우, The password is shorter than 8 characters
 # 비밀번호를 jjeongjjeong으로 할 경우, 통과
 ```
+
+![3](https://github.com/user-attachments/assets/65cecb3c-7ad3-45fd-b8f0-7064641da12f)
