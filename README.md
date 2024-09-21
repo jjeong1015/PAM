@@ -23,7 +23,7 @@ password        requisite                       pam_pwquality.so retry=3 minlen=
 $ sudo adduser user0
 ```
 
-![2](https://github.com/user-attachments/assets/e8a5a673-05c3-4307-870a-379a07c8f96c)
+![2](https://github.com/user-attachments/assets/b057c423-83c1-477c-8988-c3c2e7bd6741)
 
 ```bash
 # 비밀번호를 000으로 할 경우, The password is a palindrome
@@ -31,4 +31,4 @@ $ sudo adduser user0
 # 비밀번호를 jjeongjjeong으로 할 경우, 통과
 ```
 
-![3](https://github.com/user-attachments/assets/65cecb3c-7ad3-45fd-b8f0-7064641da12f)
+![3](https://github.com/user-attachments/assets/d0e85dbb-9296-4a4d-965f-cd66089892af)
