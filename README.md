@@ -1,10 +1,11 @@
-# WooriFISA-PAM
+# PAM
 
 |<img src="https://avatars.githubusercontent.com/u/82391356?v=4" width="120" height="120"/>|
 |:-:|
 [@이정민](https://github.com/jjeong1015) 
 
-# PAM (Pluggable Authentication Module)
+## 기술 스택
+<img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=VirtualBox&logoColor=black"><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> 
 
 ## 1. PAM이란?
 PAM(Pluggable Authentication Module)은 **리눅스 및 유닉스 시스템에서 인증(Authentication) 과정을 모듈화하여 관리하는 프레임워크**이다.  
@@ -57,3 +58,19 @@ $ sudo adduser user0
 ## 결론
 PAM은 리눅스 시스템에서 유연하고 강력한 인증 관리를 제공하는 프레임워크이다.
 비밀번호 정책 강화, SSH 보안 설정, 계정 잠금, MFA 적용 등 다양한 인증 관련 기능을 손쉽게 설정할 수 있으며, 이를 통해 시스템 보안을 한층 강화할 수 있다.
+
+## 🔍 교훈 및 적용
+보안 정책 적용의 중요성
+- 단순한 비밀번호를 거부하고 강력한 비밀번호를 요구하는 정책을 설정하면서,
+사용자 계정 보안이 왜 중요한지, 그리고 이를 강제하는 방법이 얼마나 체계적인지 배울 수 있었다.
+실제로 짧거나 단순한 비밀번호는 쉽게 거부되는 것을 보며 보안 정책이 실질적으로 작동하는 방식을 확인할 수 있었다.
+
+PAM의 유연성을 직접 경험
+- 기존 시스템을 수정하지 않고도 /etc/pam.d/common-password 설정을 변경하는 것만으로 비밀번호 정책을 강화할 수 있었다.
+이를 통해 운영체제의 인증 시스템을 중앙에서 제어하는 방식이 얼마나 강력한지 직접 체감할 수 있었다.
+
+## 🚀 발전
+단순한 이론 학습이 아닌 직접 PAM 설정을 적용하고 테스트하면서 운영체제의 인증 방식에 대한 실무적인 감각을 키울 수 있었다.
+오류 메시지를 분석하며, 시스템이 어떤 기준으로 비밀번호를 평가하는지 이해하는 능력이 향상되었다.
+단순한 패스워드 정책 적용을 넘어서 앞으로 MFA나 계정 잠금 정책과 같은 보안 정책도 해보고 싶다는 생각이 들었다.
+
